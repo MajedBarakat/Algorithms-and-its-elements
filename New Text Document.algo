@@ -1,0 +1,15 @@
+ALGORITHM algorithm_name
+VAR
+    x:CHAR
+    a,b,c:INTEGER
+BEGIN
+    read (x)
+    a:=0
+    b:=1
+    c:=0
+    WHILE (x <> '.') DO
+        a=a+1
+        b=b+1
+        c+1
+    END_WHILE
+END
