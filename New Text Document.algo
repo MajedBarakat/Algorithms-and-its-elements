@@ -10,6 +10,11 @@ BEGIN
     WHILE (x <> '.') DO
         a=a+1
         b=b+1
+        IF (x=" ") THEN
+        END_IF
         c+1
+        IF (x="a" or x="e" or x="i" or x="y" or x="u") THEN
+        END_IF
+
     END_WHILE
 END
