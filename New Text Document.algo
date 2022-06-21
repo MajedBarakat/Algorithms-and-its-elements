@@ -9,11 +9,13 @@ BEGIN
     c:=0
     WHILE (x <> '.') DO
         a=a+1
-        b=b+1
+        
         IF (x=" ") THEN
+        b=b+1
         END_IF
-        c+1
+        
         IF (x="a" or x="e" or x="i" or x="y" or x="u") THEN
+        c+1
         END_IF
 
     END_WHILE
