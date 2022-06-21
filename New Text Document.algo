@@ -14,8 +14,8 @@ BEGIN
         b=b+1
         END_IF
         
-        IF (x="a" or x="e" or x="i" or x="y" or x="u") THEN
-        c+1
+        IF (x="a" OR x="e" OR x="i" OR x="y" OR x="u" OR X="A" OR X="E" OR X="I" OR X="Y" OR X="U") THEN
+        c=c+1
         END_IF
 
     END_WHILE
